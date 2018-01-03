@@ -28,7 +28,9 @@
           $('#box').fadeIn(3000);
        });
        
-       
+       $('#btnFadeTog').click(function(){
+           $('#box').fadeToggle(3000);
+       });
     });
 </script>
 <?php include_once 'public_footer.php'; ?>
